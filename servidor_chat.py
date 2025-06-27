@@ -24,6 +24,7 @@ def tratar_mensagens_cliente(cliente, endereco):
     while True:
         try:
             mensagem = cliente.recv(1024)
+            print(mensagem.decode())
             if mensagem:
                 enviar_mensagens_clientes(mensagem, cliente)
         except:
