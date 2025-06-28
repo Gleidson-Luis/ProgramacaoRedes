@@ -16,10 +16,10 @@ def enviar_mensagem(cliente):
         cliente.send(mensagem.encode())
 
 cliente = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-cliente.connect(('localhost', 5000))
+cliente.connect(("10.209.1.20",5000))
 
-thread_receber = threading.Thread(receber_mensagem, args=(cliente, ))
-thread_enviar = threading.Thread(enviar_mensagem, args=(cliente, ))
+thread_receber = threading.Thread(target = receber_mensagem, args=(cliente, ))
+thread_enviar = threading.Thread(target = enviar_mensagem, args=(cliente, ))
 
 thread_receber.start()
 thread_enviar.start()

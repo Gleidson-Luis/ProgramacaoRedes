@@ -17,7 +17,7 @@ def iniciar_servidor():
         #Captura cliente que abriu conexão
         cliente, endereco = servidor.accept()
         clientes.append(cliente)
-        thread = threading.Thread(tratar_mensagens_cliente, args=(cliente, endereco))
+        thread = threading.Thread(target = tratar_mensagens_cliente, args=(cliente, endereco))
         thread.start()
 
 def tratar_mensagens_cliente(cliente, endereco):
