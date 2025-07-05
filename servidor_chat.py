@@ -8,7 +8,7 @@ def iniciar_servidor():
     #Cria objeto socket para funcionar com IPv4 e TCP
     servidor = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     #Vincula endereço e porta para espera de conexões
-    servidor.bind(("localhost",5000))
+    servidor.bind(("0.0.0.0",5000))
     #Inicia o servidor. Agora ele fica ouvindo as conexões
     servidor.listen()
     print("Servidor inicializado!!!!")
