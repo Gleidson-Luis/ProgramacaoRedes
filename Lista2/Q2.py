@@ -2,7 +2,7 @@
 
 import os
 
-caminho_diretorio = "C:\Trabalho_Lista2\quest2"
+caminho_diretorio = "C:\Pastas_Lista2\quest2"
 # Lista os arquivos .log no diretorio
 
 try:

@@ -3,7 +3,7 @@
 import os
 
 # Pasta a ser percorrida
-pasta = "C:\Trabalho_Lista2\quest5"
+pasta = "C:\Pastas_Lista2\quest5"
 
 # Percorre todos os arquivos da pasta
 for arquivo in os.listdir(pasta):
