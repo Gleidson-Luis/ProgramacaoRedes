@@ -1,3 +1,5 @@
+# Criar uma API REST usando Flask
+
 from flask import Flask, jsonify
 
 # Criar aplicação Flask
