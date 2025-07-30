@@ -1,0 +1,11 @@
+block ip 192.168.1.100
+block ip 10.0.0.25
+block ip 172.16.5.50
+block ip 192.168.10.75
+block ip 10.1.1.200
+block ip 172.20.30.15
+block ip 192.168.0.150
+block ip 10.5.10.88
+block ip 172.31.255.99
+block ip 192.168.100.1
+block ip 10.10.10.250
