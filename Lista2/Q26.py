@@ -1,7 +1,9 @@
+# Implementação de um endpoint para validar formato MAC
+
 from flask import Flask, request, jsonify
 import re
 
-app = Flask(__name__)
+app = Flask(__name__)  # Inicia a aplicação flask
 
 @app.route('/validar_mac')
 def validar_mac():
@@ -13,5 +15,6 @@ def validar_mac():
     valido = {'valido': valido}
     return jsonify(valido)
 
+# Executa o script
 if __name__ == '__main__':
     app.run(debug=True)

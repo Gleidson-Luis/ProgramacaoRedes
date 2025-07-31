@@ -21,4 +21,5 @@ for nome_arquivo in arquivos:
     with open(caminho, 'w') as f:
         f.write("")  # Cria arquivo vazio
 
+# Imprime a conclusão do processo
 print("Arquivos criados com sucesso dentro da pasta.")

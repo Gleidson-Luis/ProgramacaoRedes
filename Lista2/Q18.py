@@ -12,4 +12,5 @@ with open('firewall_rules.txt', 'w') as arquivo_saida:
             regra = f"block ip {ip_limpo}\n"
             arquivo_saida.write(regra)
 
+# Imprime o resultado da geração do arquivo
 print("Regras de firewall geradas com sucesso em 'firewall_rules.txt'.")

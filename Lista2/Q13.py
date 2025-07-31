@@ -64,5 +64,6 @@ def verificar_ip():
     except:
         return jsonify({'erro': 'IP inválido'}), 400
 
+# Executa o script
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

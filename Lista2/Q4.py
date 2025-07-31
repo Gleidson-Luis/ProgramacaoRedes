@@ -16,4 +16,5 @@ response = requests.get(url)
 with open('pagina.html', 'w', encoding='utf-8') as arquivo:
     arquivo.write(response.text)
 
+# Imprime o resultado
 print("Página salva em 'pagina.html'!")

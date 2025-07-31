@@ -21,5 +21,6 @@ def verificar_latencia():
 
     return jsonify({'status': status})
 
+# Executa o script
 if __name__ == '__main__':
     app.run(debug=True)

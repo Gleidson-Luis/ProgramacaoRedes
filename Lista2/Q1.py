@@ -17,5 +17,5 @@ for subpasta in subpastas:
     caminho = os.path.join(nome_diretorio,subpasta)
     os.makedirs(caminho,exist_ok=True)
     print(f"Subpasta '{subpasta}' criada")
-          
+# Imprime o resultado          
 print("Concluido")

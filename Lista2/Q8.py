@@ -28,4 +28,5 @@ with open('cpu_log.txt', 'w', encoding='utf-8') as f:
         if i < 9:  # Não espera na última iteração
             time.sleep(2)
 
+# Imprime a conclusão do processo
 print("\nMonitoramento concluído! Verifique o arquivo 'cpu_log.txt'")

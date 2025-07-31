@@ -1,6 +1,6 @@
 # Gerar 10 endereços IP aleatoriamente na faixa de 192.168.0.0/24
 
-import random
+import random  # Biblioteca padrão para gerar números pseudoaleatórios
 
 def gerar_ips():
     ips = set() # Garante que os IPs não se repitam

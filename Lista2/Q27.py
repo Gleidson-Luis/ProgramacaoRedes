@@ -2,12 +2,13 @@
 
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+app = Flask(__name__)  # Inicia a aplicação flask
 
 @app.route('/echo')
 def get_echo():
     dados = {"erro": "Nenhum JSON recebido"}
     return jsonify(dados)
 
+# Executa o script
 if __name__ == '__main__':
     app.run(debug=True)

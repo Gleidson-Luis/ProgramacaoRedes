@@ -1,6 +1,6 @@
 #Lê um arquivo e conta quantos IPs estão listados
 
-def contar_ips(arquivo="ips.txt"):
+def contar_ips(arquivo="ips.txt"): # Função para contar os IPs
     try:
         with open(arquivo, 'r') as file:
             linhas = file.readlines()

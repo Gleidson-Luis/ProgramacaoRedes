@@ -12,6 +12,7 @@ with open(arquivo_log, 'r', encoding='utf-8') as f:
     timeout_count = conteudo.count('timeout')
     connection_refused_count = conteudo.count('connection refused')
 
+# Imprime os resultados
 print(f"Arquivo: {arquivo_log}")
 print(f"'timeout': {timeout_count} ocorrências")
 print(f"'connection refused': {connection_refused_count} ocorrências")

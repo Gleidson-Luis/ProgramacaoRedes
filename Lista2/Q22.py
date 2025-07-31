@@ -15,5 +15,6 @@ def cliente_tcp(host='127.0.0.1', port=12345):
         for dispositivo in dispositivos:
             print(f"- {dispositivo.strip()}")
 
+# Executa o script
 if __name__ == "__main__":
     cliente_tcp()

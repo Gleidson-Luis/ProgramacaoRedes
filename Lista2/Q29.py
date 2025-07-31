@@ -19,4 +19,5 @@ def gerar_ips():
 
     print("Arquivo 'ips_gerados.txt' gerado com sucesso!")
 
+# gera os ips
 gerar_ips()

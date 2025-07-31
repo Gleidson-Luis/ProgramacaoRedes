@@ -19,4 +19,5 @@ for site in sites:
     except requests.exceptions.RequestException:
         print(f"{site} - OFFLINE")
 
+# Imprime a conclusão do processo
 print("\nVerificação concluída!")

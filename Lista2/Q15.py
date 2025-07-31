@@ -1,6 +1,6 @@
 # Gerar  senhas aleatórias de 8 dígitos para 5 roteadores e exiba as senhas na tela
 
-import random # Permite gerar números e escolhas aleatórias
+import random # Biblioteca padrão para gerar números pseudoaleatórios
 
 def gerar_senhas(qtd=5, tamanho=8): # Função para gerar senhas com dois parâmetros
     senhas = []

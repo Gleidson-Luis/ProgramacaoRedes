@@ -22,5 +22,6 @@ def gerenciar_ips():
     elif request.method == 'GET':
         return jsonify({'ips': lista_ips})
 
+# Executa o script
 if __name__ == '__main__':
     app.run(debug=True)

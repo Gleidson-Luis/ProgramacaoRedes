@@ -47,5 +47,6 @@ def listar_dispositivos():
         'total': len(dispositivos)
     })
 
+# Executa o script
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

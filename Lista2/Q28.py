@@ -1,6 +1,8 @@
+# Desenvolvimento de endpoint que receba um lista de latências e retorne o maior valor
+
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+app = Flask(__name__)  # Inicia a aplicação flask
 
 @app.route('/maior_latencia', methods=['POST'])
 def maior_latencia():
@@ -13,5 +15,7 @@ def maior_latencia():
     maior = max(latencias)
     return jsonify({'maior_latencia': maior})
 
+
+# Executa o script
 if __name__ == '__main__':
     app.run(debug=True)
