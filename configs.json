@@ -1,0 +1,7 @@
+{
+    "host": "localhost",
+    "porta": 8080,
+    "debug": true,
+    "usuario": "admin",
+    "senha": "123456"
+}
